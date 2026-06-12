@@ -1,0 +1,104 @@
+{
+  "outline_panel": {
+    "button": false
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    },
+    "opencode": {
+      "type": "registry"
+    }
+  },
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "csharp": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "html": true,
+    "latex": true,
+    "lua": true,
+    "make": true,
+    "prisma": true,
+    "sql": true,
+    "toml": true
+  },
+  "auto_update": true,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 15.0,
+  "buffer_font_weight": 400.0,
+  "cli_default_open_behavior": "new_window",
+  "collaboration_panel": {
+    "button": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "disable_ai": false,
+  "edit_predictions": {
+    "provider": "none"
+  },
+  "enable_language_server": true,
+  "git_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "global_lsp_settings": {
+    "button": true
+  },
+  "icon_theme": "Zed (Default)",
+  "languages": {
+    "C": {
+      "language_servers": []
+    },
+    "C++": {
+      "language_servers": []
+    },
+    "Go": {
+      "language_servers": []
+    },
+    "JavaScript": {
+      "language_servers": []
+    },
+    "Python": {
+      "language_servers": []
+    },
+    "Rust": {
+      "language_servers": []
+    },
+    "TypeScript": {
+      "language_servers": []
+    }
+  },
+  "lsp": {},
+  "project_panel": {
+    "dock": "left"
+  },
+  "restore_on_startup": "launchpad",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "show_edit_predictions": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "font_family": "JetBrains Mono"
+  },
+  "theme": {
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Mocha",
+    "mode": "system"
+  },
+  "ui_font_size": 16
+}
