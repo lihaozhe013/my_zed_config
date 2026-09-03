@@ -1,8 +1,14 @@
 {
+  "git": {
+    "diff_base": "head"
+  },
+  "ui_font_family": "Source Han Sans SC",
+  "ui_font_fallbacks": ["Noto Sans SC", "Noto Sans CJK SC"],
   "outline_panel": {
     "button": false
   },
   "agent": {
+    "sidebar_side": "right",
     "dock": "right",
     "favorite_models": [],
     "model_parameters": []
@@ -12,6 +18,10 @@
       "type": "registry"
     },
     "opencode": {
+      "default_config_options": {
+        "effort": "",
+        "model": ""
+      },
       "type": "registry"
     }
   },
@@ -31,6 +41,12 @@
   },
   "auto_update": true,
   "buffer_font_family": "JetBrains Mono",
+  "buffer_font_fallbacks": [
+    "Source Han Mono SC",
+    "Source Han Sans SC",
+    "Noto Sans SC",
+    "Noto Sans CJK SC"
+  ],
   "buffer_font_size": 15.0,
   "buffer_font_weight": 400.0,
   "cli_default_open_behavior": "new_window",
@@ -96,7 +112,13 @@
     "metrics": false
   },
   "terminal": {
-    "font_family": "JetBrains Mono"
+    "font_family": "JetBrains Mono",
+    "font_fallbacks": [
+      "Source Han Mono SC",
+      "Source Han Sans SC",
+      "Noto Sans SC",
+      "Noto Sans CJK SC"
+    ]
   },
   "theme": {
     "dark": "Catppuccin Mocha",
