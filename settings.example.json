@@ -77,6 +77,9 @@
     },
     "TypeScript": {
       "language_servers": []
+    },
+    "Lua": {
+      "language_servers": []
     }
   },
   "lsp": {},
