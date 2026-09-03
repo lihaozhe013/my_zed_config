@@ -8,6 +8,7 @@
     "button": false
   },
   "agent": {
+    "thinking_display": "always_collapsed",
     "sidebar_side": "right",
     "dock": "right",
     "favorite_models": [],
