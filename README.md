@@ -7,14 +7,14 @@ This is my zed editor config, which works across Windows, Max and Linux.
 For Windows
 
 ```powershell
-git clone ~/AppData/Roaming
+git clone git@github.com:lihaozhe013/my_zed_config.git ~/AppData/Roaming
 mv my_zed_config Zed
 ```
 
 For Mac and Linux
 
 ```bash
-git clone ~/.config/zed/
+git clone git@github.com:lihaozhe013/my_zed_config.git ~/.config
 mv my_zed_config zed
 ```
 
