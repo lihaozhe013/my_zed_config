@@ -1,28 +1,17 @@
 {
-  "git": {
-    "diff_base": "head"
-  },
-  "ui_font_family": "Source Han Sans SC",
-  "ui_font_fallbacks": ["Noto Sans SC", "Noto Sans CJK SC"],
-  "outline_panel": {
-    "button": false
-  },
   "agent": {
     "thinking_display": "always_collapsed",
     "sidebar_side": "right",
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
+    "sidebar_side": "right"
   },
   "agent_servers": {
     "codex-acp": {
       "type": "registry"
     },
     "opencode": {
-      "default_config_options": {
-        "effort": "",
-        "model": ""
-      },
       "type": "registry"
     }
   },
@@ -41,13 +30,13 @@
     "toml": true
   },
   "auto_update": true,
-  "buffer_font_family": "JetBrains Mono",
   "buffer_font_fallbacks": [
     "Source Han Mono SC",
     "Source Han Sans SC",
     "Noto Sans SC",
     "Noto Sans CJK SC"
   ],
+  "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 15.0,
   "buffer_font_weight": 400.0,
   "cli_default_open_behavior": "new_window",
@@ -65,6 +54,9 @@
     "provider": "none"
   },
   "enable_language_server": true,
+  "git": {
+    "diff_base": "head"
+  },
   "git_panel": {
     "button": false,
     "dock": "right"
@@ -86,6 +78,9 @@
     "JavaScript": {
       "language_servers": []
     },
+    "Lua": {
+      "language_servers": []
+    },
     "Python": {
       "language_servers": []
     },
@@ -94,12 +89,12 @@
     },
     "TypeScript": {
       "language_servers": []
-    },
-    "Lua": {
-      "language_servers": []
     }
   },
   "lsp": {},
+  "outline_panel": {
+    "button": false
+  },
   "project_panel": {
     "dock": "left"
   },
@@ -113,18 +108,21 @@
     "metrics": false
   },
   "terminal": {
-    "font_family": "JetBrains Mono",
+    "detect_venv": "off",
     "font_fallbacks": [
       "Source Han Mono SC",
       "Source Han Sans SC",
       "Noto Sans SC",
       "Noto Sans CJK SC"
-    ]
+    ],
+    "font_family": "JetBrains Mono"
   },
   "theme": {
     "dark": "Catppuccin Mocha",
     "light": "Catppuccin Mocha",
     "mode": "system"
   },
+  "ui_font_fallbacks": ["Noto Sans SC", "Noto Sans CJK SC"],
+  "ui_font_family": "Source Han Sans SC",
   "ui_font_size": 16
 }
