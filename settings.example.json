@@ -88,6 +88,9 @@
     },
     "TypeScript": {
       "language_servers": []
+    },
+    "Zig": {
+      "language_servers": []
     }
   },
   "lsp": {},
@@ -122,7 +125,10 @@
     "light": "Catppuccin Mocha",
     "mode": "system"
   },
-  "ui_font_fallbacks": ["Noto Sans SC", "Noto Sans CJK SC"],
+  "ui_font_fallbacks": [
+    "Noto Sans SC",
+    "Noto Sans CJK SC"
+  ],
   "ui_font_family": "Source Han Sans SC",
   "ui_font_size": 16
 }
