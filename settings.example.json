@@ -52,7 +52,7 @@
   "edit_predictions": {
     "provider": "none"
   },
-  "enable_language_server": true,
+  "enable_language_server": false,
   "git": {
     "diff_base": "head"
   },
