@@ -8,12 +8,21 @@ For Windows
 
 ```powershell
 git clone git@github.com:lihaozhe013/my_zed_config.git ~/AppData/Roaming/zed
+
+```
+
+```powershell
+git clone https://github.com/lihaozhe013/my_zed_config.git ~/AppData/Roaming/zed
 ```
 
 For Mac and Linux
 
 ```bash
 git clone git@github.com:lihaozhe013/my_zed_config.git ~/.config/zed
+```
+
+```bash
+git clone https://github.com/lihaozhe013/my_zed_config.git ~/.config/zed
 ```
 
 ## Zed Config File Path
