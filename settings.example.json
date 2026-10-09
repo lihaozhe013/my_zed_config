@@ -1,18 +1,15 @@
 {
-  "agent": {
-    "dock": "right",
-    "favorite_models": [],
-    "model_parameters": [],
-    "sidebar_side": "right",
-    "thinking_display": "always_collapsed"
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha"
   },
-  "agent_servers": {
-    "codex-acp": {
-      "type": "registry"
-    },
-    "opencode": {
-      "type": "registry"
-    }
+  "git": {
+    "diff_base": "head"
+  },
+  "ui_font_family": "Noto Sans SC",
+  "outline_panel": {
+    "button": false
   },
   "auto_install_extensions": {
     "catppuccin": true,
@@ -29,13 +26,11 @@
     "toml": true
   },
   "auto_update": true,
+  "buffer_font_family": "JetBrains Mono",
   "buffer_font_fallbacks": [
-    "Source Han Mono SC",
-    "Source Han Sans SC",
     "Noto Sans SC",
     "Noto Sans CJK SC"
   ],
-  "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 15.0,
   "buffer_font_weight": 400.0,
   "cli_default_open_behavior": "new_window",
@@ -53,9 +48,6 @@
     "provider": "none"
   },
   "enable_language_server": false,
-  "git": {
-    "diff_base": "head"
-  },
   "git_panel": {
     "button": false,
     "dock": "right"
@@ -64,6 +56,56 @@
     "button": true
   },
   "icon_theme": "Zed (Default)",
+  "languages": {
+    "C": {
+      "language_servers": []
+    },
+    "C++": {
+      "language_servers": []
+    },
+    "Go": {
+      "language_servers": []
+    },
+    "JavaScript": {
+      "language_servers": []
+    },
+    "Python": {
+      "language_servers": []
+    },
+    "Rust": {
+      "language_servers": []
+    },
+    "TypeScript": {
+      "language_servers": []
+    },
+    "Lua": {
+      "language_servers": []
+    },
+    "Zig": {
+      "language_servers": []
+    }
+  },
+  "lsp": {},
+  "project_panel": {
+    "dock": "left"
+  },
+  "restore_on_startup": "launchpad",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "show_edit_predictions": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "font_family": "JetBrains Mono",
+    "font_fallbacks": [
+      "Noto Sans SC",
+      "Noto Sans CJK SC"
+    ]
+  },
+  "ui_font_size": 16,
   "languages": {
     "C": {
       "language_servers": []
@@ -93,42 +135,4 @@
       "language_servers": []
     }
   },
-  "lsp": {},
-  "outline_panel": {
-    "button": false
-  },
-  "project_panel": {
-    "dock": "left"
-  },
-  "restore_on_startup": "launchpad",
-  "session": {
-    "trust_all_worktrees": true
-  },
-  "show_edit_predictions": false,
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "terminal": {
-    "detect_venv": "off",
-    "font_fallbacks": [
-      "Source Han Mono SC",
-      "Source Han Sans SC",
-      "Noto Sans SC",
-      "Noto Sans CJK SC"
-    ],
-    "font_family": "JetBrains Mono",
-    "option_as_meta": true
-  },
-  "theme": {
-    "dark": "Catppuccin Mocha",
-    "light": "Catppuccin Mocha",
-    "mode": "system"
-  },
-  "ui_font_fallbacks": [
-    "Noto Sans SC",
-    "Noto Sans CJK SC"
-  ],
-  "ui_font_family": "Source Han Sans SC",
-  "ui_font_size": 16
 }
