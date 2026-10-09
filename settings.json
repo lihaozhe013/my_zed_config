@@ -49,7 +49,7 @@
   },
   "enable_language_server": false,
   "git_panel": {
-    "button": false,
+    "button": true,
     "dock": "right"
   },
   "global_lsp_settings": {
