@@ -43,7 +43,7 @@
   "diagnostics": {
     "button": false
   },
-  "disable_ai": true,
+  "disable_ai": false,
   "edit_predictions": {
     "provider": "none"
   },
