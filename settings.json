@@ -1,4 +1,9 @@
 {
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "theme": {
     "mode": "dark",
     "light": "One Light",
