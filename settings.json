@@ -12,7 +12,7 @@
   "git": {
     "diff_base": "head"
   },
-  "ui_font_family": "Noto Sans CJK SC",
+  "ui_font_family": "Noto Sans SC",
   "outline_panel": {
     "button": false
   },
@@ -33,7 +33,7 @@
   "auto_update": true,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_fallbacks": [
-    "Noto Sans CJK SC"
+    "Noto Sans SC"
   ],
   "buffer_font_size": 15.0,
   "buffer_font_weight": 400.0,
@@ -105,7 +105,7 @@
   "terminal": {
     "font_family": "JetBrains Mono",
     "font_fallbacks": [
-      "Noto Sans CJK SC"
+      "Noto Sans SC"
     ]
   },
   "ui_font_size": 16,
