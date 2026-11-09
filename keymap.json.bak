@@ -1,0 +1,25 @@
+[
+  {
+    "bindings": {
+      "ctrl-j": null,
+      "ctrl-t": null
+    },
+    "context": "Workspace"
+  },
+  {
+    "bindings": {},
+    "context": "Editor && vim_mode == insert"
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-;": "command_palette::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-p": "command_palette::Toggle"
+    }
+  }
+]

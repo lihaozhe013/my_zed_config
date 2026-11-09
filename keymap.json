@@ -1,14 +1,21 @@
 [
   {
+    "context": "Workspace",
     "bindings": {
       "ctrl-j": null,
       "ctrl-t": null
-    },
-    "context": "Workspace"
+    }
   },
   {
-    "bindings": {},
-    "context": "Editor && vim_mode == insert"
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-j": ["terminal::SendText", "\u001b[106;5u"],
+      "shift-enter": ["terminal::SendText", "\u001b[13;2u"]
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {}
   },
   {
     "context": "Workspace",
