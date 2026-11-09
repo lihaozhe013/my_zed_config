@@ -9,8 +9,8 @@
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-j": ["terminal::SendText", "\u001b[106;5u"],
-      "shift-enter": ["terminal::SendText", "\u001b[13;2u"]
+      "ctrl-j": ["terminal::SendText", "\u001b\r"],
+      "shift-enter": ["terminal::SendText", "\u001b\r"]
     }
   },
   {
