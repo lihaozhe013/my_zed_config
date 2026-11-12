@@ -30,7 +30,7 @@
     "sql": true,
     "toml": true
   },
-  "auto_update": true,
+  "auto_update": false,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_fallbacks": [
     "Noto Sans SC"
