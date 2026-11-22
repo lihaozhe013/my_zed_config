@@ -7,7 +7,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "One Dark"
+    "dark": "Ayu Dark"
   },
   "git": {
     "diff_base": "head"
