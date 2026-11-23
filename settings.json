@@ -1,13 +1,23 @@
 {
   "agent": {
+    "auto_compact": {
+      "threshold": "60%"
+    },
+    "show_turn_stats": true,
+    "play_sound_when_agent_done": "always",
+    "tool_permissions": {
+      "default": "allow",
+      "tools": {}
+    },
+    "thinking_display": "preview",
     "dock": "right",
     "favorite_models": [],
     "model_parameters": []
   },
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "Ayu Dark"
+    "light": "Ayu Light",
+    "dark": "One Dark"
   },
   "git": {
     "diff_base": "head"
