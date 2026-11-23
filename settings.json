@@ -14,10 +14,31 @@
     "favorite_models": [],
     "model_parameters": []
   },
+  "agent_servers": {
+    "opencode2": {
+      "default_config_options": {
+        "effort": "max",
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "type": "custom",
+      "command": "",
+      "args": ["acp"]
+    },
+    "agy": {
+      "default_config_options": {
+        "thought_level": "xhigh",
+        "model": "gemini-4-hydrogen",
+        "mode": "auto"
+      },
+      "type": "custom",
+      "command": "",
+      "args": ["acp", "--dangerously-skip-permissions"]
+    }
+  },
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "One Dark"
+    "dark": "Ayu Dark"
   },
   "git": {
     "diff_base": "head"
@@ -59,6 +80,7 @@
   },
   "disable_ai": false,
   "edit_predictions": {
+    "allow_data_collection": "no",
     "provider": "none"
   },
   "enable_language_server": false,
