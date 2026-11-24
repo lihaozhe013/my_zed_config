@@ -3,30 +3,6 @@
     "context": "Workspace",
     "bindings": {
       "ctrl-j": null,
-      "ctrl-t": null
-    }
-  },
-  {
-    "context": "Terminal",
-    "bindings": {
-      "ctrl-j": ["terminal::SendText", "\u001b\r"],
-      "shift-enter": ["terminal::SendText", "\u001b\r"]
-    }
-  },
-  {
-    "context": "Editor && vim_mode == insert",
-    "bindings": {}
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "alt-;": "command_palette::Toggle"
-    }
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-p": "command_palette::Toggle"
     }
   }
 ]
