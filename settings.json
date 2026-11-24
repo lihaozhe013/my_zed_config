@@ -1,5 +1,8 @@
 {
   "agent": {
+    "threads_sidebar": {
+      "position": "right"
+    },
     "auto_compact": {
       "threshold": "60%"
     },
